@@ -102,13 +102,13 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+scheduler_events = {
 # 	"all": [
 # 		"contact_data_collection.tasks.all"
 # 	],
-# 	"daily": [
-# 		"contact_data_collection.tasks.daily"
-# 	],
+	'daily': [
+		'contact_data_collection.tasks.daily'
+	],
 # 	"hourly": [
 # 		"contact_data_collection.tasks.hourly"
 # 	],
@@ -118,7 +118,7 @@ app_license = "MIT"
 # 	"monthly": [
 # 		"contact_data_collection.tasks.monthly"
 # 	]
-# }
+}
 
 # Testing
 # -------
@@ -143,3 +143,11 @@ app_license = "MIT"
 #
 # auto_cancel_exempted_doctypes = ["Auto Repeat"]
 
+user_privacy_documents = [
+	{
+		'doctype': 'Contact Data',
+		'match_field': 'phone',
+		'personal_fields': ['first_name', 'last_name', 'phone', 'email_address', 'zip_code', 'present_from', 'present_to'],
+		'applies_to_website_user': 1
+	}
+]
