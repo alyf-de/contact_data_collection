@@ -2,7 +2,7 @@
 
 Contact Data Collection for compliance with COVID-19 related regulations.
 
-> Auf Wunsch stelen wir gerne eine deutsche Übersetzung der App und dieser Beschreibung zur Verfügung.
+> Auf Wunsch stellen wir gerne eine deutsche Übersetzung der App und dieser Beschreibung zur Verfügung.
 
 ## Requirements
 
