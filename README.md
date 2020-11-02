@@ -29,6 +29,10 @@ And yes, you can also print that and hand it to your local health agency:
 
 In the **Settings** page you can configure how long you need to store the **Contact Data**. The default is 30 days. Records that are older than that are automatically deleted.
 
+## How to use this app
+
+If would like to use this app, please select a hosting plan at [alyf.de](https://alyf.de/preise) and reach out to us via phone or email. We will be glad to configure this app for you.
+
 ## License
 
 Copyright (c) 2020 [ALYF GmbH](https://alyf.de)
