@@ -9,6 +9,7 @@
  ],
  "fields": [
   {
+   "default": "30",
    "fieldname": "delete_contact_data_after",
    "fieldtype": "Int",
    "hide_seconds": 1,
@@ -20,7 +21,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2020-11-02 15:17:02.960704",
+ "modified": "2020-11-02 18:36:44.536877",
  "modified_by": "Administrator",
  "module": "Contact Data Collection",
  "name": "Contact Data Collection Settings",
