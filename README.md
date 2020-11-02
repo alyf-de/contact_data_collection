@@ -29,7 +29,9 @@ And yes, you can also print that and hand it to your local health agency:
 
 ## Privacy
 
-In the **Settings** page you can configure how long you need to store the **Contact Data**. The default is 30 days. Records that are older than that are automatically deleted.
+- You can configure how long you need to store the **Contact Data**. The default is 30 days. Records that are older than that are automatically deleted.
+- You can add a checkbox to the **Web Form** to let visitors agree with your privacy policy. 
+- You can add links to your imprint and privacy policy to the footer of the website.
 
 ## How to use this app
 
