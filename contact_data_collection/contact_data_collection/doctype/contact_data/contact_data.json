@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "creation": "2020-11-02 15:02:55.472339",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "column_break_2",
+  "last_name",
+  "section_break_4",
+  "phone",
+  "zip_code",
+  "column_break_7",
+  "email_address",
+  "section_break_8",
+  "present_from",
+  "column_break_10",
+  "present_to"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "zip_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ZIP Code"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break",
+   "label": "Presence"
+  },
+  {
+   "fieldname": "present_from",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Present From"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "present_to",
+   "fieldtype": "Datetime",
+   "label": "Present To"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2020-11-02 18:24:57.603146",
+ "modified_by": "Administrator",
+ "module": "Contact Data Collection",
+ "name": "Contact Data",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager"
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "if_owner": 1,
+   "read": 1,
+   "role": "All"
+  }
+ ],
+ "search_fields": "first_name, last_name, phone, email_address, present_from, present_to",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "last_name",
+ "track_seen": 1
+}
