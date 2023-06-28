@@ -27,7 +27,7 @@ def delete_records(older_than: timedelta=None):
 		delete_after = frappe.db.get_single_value("Contact Data Collection Settings", "delete_contact_data_after")
 		older_than = timedelta(days=delete_after)
 
-	deletion_date = datetime.today() - older_than
+	deletion_date = datetime.now() - older_than
 	records_to_remove = frappe.get_list("Contact Data", {
 		"creation": ("<=", deletion_date)
 	})
